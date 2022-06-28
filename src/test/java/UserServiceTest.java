@@ -14,7 +14,7 @@ import org.springframework.boot.test.mock.mockito.SpyBean;
 
 import static org.assertj.core.api.Assertions.*;
 
-@SpringBootTest
+@SpringBootTest(classes={UserService.class, UserRepository.class})
 class UserServiceTest {
 
     @SpyBean
