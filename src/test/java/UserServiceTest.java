@@ -1,5 +1,3 @@
-package kma.topic2.junit.tests;
-
 import kma.topic2.junit.exceptions.LoginExistsException;
 import kma.topic2.junit.exceptions.UserNotFoundException;
 import kma.topic2.junit.model.NewUser;
